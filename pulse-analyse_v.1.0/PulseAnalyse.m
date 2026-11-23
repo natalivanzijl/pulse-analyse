@@ -23,7 +23,7 @@ function [pw_inds, fid_pts, pulses, sigs] = PulseAnalyse(S, options)
 %
 %  Outputs:
 %
-%    pw_inds  -  a structure containing the calculate pulse wave indices. 
+%    pw_inds  -  a structure containing the calculated pulse wave indices. 
 %                   For instance, pw_inds.AI.v is the value of the
 %                   augmentation index (AI). If the input S contains
 %                   several pulses, then  pw_inds.AI.v is the median AI
